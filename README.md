@@ -1,6 +1,12 @@
-# logggit
+<p align="center">
+  <img src="screenshots/logo-text.png" alt="logggit" width="280">
+</p>
 
 A private, per-client work portal. You log work in Obsidian and the client opens a secret link to see a live log, AI summaries, files, comments, annotations, time tracking, and email notifications.
+
+<p align="center">
+  <img src="screenshots/client-portal-top.png" alt="Client portal - time tracking and summary" width="700">
+</p>
 
 It runs as two separate apps on purpose:
 
@@ -38,6 +44,24 @@ Client input is contained. Comments are stored raw and rendered escaped. Uploads
 - **Job management**. Create, edit, and mark jobs as active, completed, or aborted from the admin UI.
 - **Scrollable log** with a bottom fade gradient. Auto-scrolls to the latest entry on load.
 - **Dark mode** and reduced-motion support out of the box.
+
+### Client portal
+
+<p align="center">
+  <img src="screenshots/client-portal-activity.png" alt="Live activity log with timestamps" width="700">
+</p>
+<p align="center">
+  <img src="screenshots/client-portal-comments.png" alt="Comments and notification preferences" width="700">
+</p>
+
+### Admin UI
+
+<p align="center">
+  <img src="screenshots/admin-jobs.png" alt="Job list and creation form" width="700">
+</p>
+<p align="center">
+  <img src="screenshots/admin-job-detail.png" alt="Job detail with client link, references, and work controls" width="700">
+</p>
 
 ## Droplet setup (client plane)
 
