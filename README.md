@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screenshots/logo-text.png" alt="logggit" width="280">
+  <img src="screenshots/logggit-logo.png" alt="logggit" width="280">
 </p>
 
 A private, per-client work portal. You log work in Obsidian and the client opens a secret link to see a live log, AI summaries, files, comments, annotations, time tracking, and email notifications.
