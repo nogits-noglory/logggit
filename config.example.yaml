@@ -1,0 +1,20 @@
+# Public URL where the client-facing server runs.
+droplet_url: "https://worklog.your-domain.example"
+
+# Shared secret between the local app and the droplet.
+# Generate: python -c "import secrets; print(secrets.token_urlsafe(32))"
+admin_secret: "REPLACE_ME"
+
+# Obsidian vault folder. One subfolder per client, each with a worklog.md.
+vault_clients_dir: "~/obsidian-vault/clients"
+
+# Password for the local admin UI. Leave blank to disable (localhost only).
+local_password: ""
+
+# Ollama for local AI summaries (optional fallback).
+ollama_url: "http://localhost:11434"
+ollama_model: "phi3.5"
+
+# Groq for AI summaries (preferred, much better quality). Free tier available.
+groq_api_key: ""
+groq_model: "llama-3.3-70b-versatile"
